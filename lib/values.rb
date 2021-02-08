@@ -11,4 +11,5 @@ require 'pry'
 def get_the_values(groceries)
 items = []
   items << groceries.values.join
+  items
 end
