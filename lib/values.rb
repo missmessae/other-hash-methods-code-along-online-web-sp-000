@@ -9,7 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-items = []
-  items << groceries.values.concat
-  items
+groceries.values.concat
 end
