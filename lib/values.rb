@@ -13,5 +13,5 @@ def get_the_values(groceries)
   groceries.each do |section, a|
     items << a
   end
-items
+items.flatten
 end
