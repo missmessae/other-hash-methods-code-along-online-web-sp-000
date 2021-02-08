@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   items = []
-  items << groceries[:dairy].values && groceries[:vegetable].values && groceries[:meat].values && groceries[:grains].values
+  items << groceries.values
   items
 end
