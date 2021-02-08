@@ -12,5 +12,6 @@ def get_the_values(groceries)
   items = []
   groceries.each do |section, a|
     items << section.values
-
+  end
+items
 end
